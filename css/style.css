@@ -1427,3 +1427,10 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+/* --- Custom overrides: social links --- */
+.social-link {
+  position: relative;
+  z-index: 9999;
+  pointer-events: auto;
+}
+
