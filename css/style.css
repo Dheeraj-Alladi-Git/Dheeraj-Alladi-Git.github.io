@@ -1434,3 +1434,19 @@ body.offcanvas {
   pointer-events: auto;
 }
 
+/* Fix sidebar icon click issue */
+#colorlib-aside {
+  z-index: 1000;
+}
+
+#colorlib-aside a {
+  pointer-events: auto;
+  position: relative;
+  z-index: 1001;
+}
+
+.colorlib-nav-toggle {
+  pointer-events: auto;
+}
+
+
